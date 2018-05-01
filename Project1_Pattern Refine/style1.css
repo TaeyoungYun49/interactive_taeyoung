@@ -1,0 +1,79 @@
+body{
+			background-color: white;
+			margin: 0;
+		}
+
+
+#squares div{
+	height:90vh;
+	width: 10vw;
+	background: linear-gradient(#ffc5c5, #ffe2b8, #84d9e6);
+	margin: 3vw;
+	float: left;
+}
+
+#lines div{
+	background-color: #ffffff;
+	height: 80vw;
+	width: 2px;
+	border-radius: 0%;
+	margin: 3px;
+	float:left;
+}
+
+#lines{
+	height: 100vh;
+    width: 130vw;
+    position: absolute;
+    clear: both;
+}
+
+#arrow-right div{
+	width: 0;
+	height: 0;
+	border-top: 50px solid yellow;
+	border-left: 50px solid transparent;
+  	margin: 4vw;
+  	float:left;
+}
+
+#arrow-right{
+	height: 100vh;
+    width: 110vw;
+    position: fixed;
+    clear: both;
+    mix-blend-mode: multiply;
+}
+
+
+#arrow-left div{
+	width: 0;
+	height: 0;
+	border-bottom: 80px solid #c694ff;
+	border-right: 80px solid transparent;
+	margin: 2vw;
+  	float:left;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+}
+
+@-webkit-keyframes mymove {
+    from {background-color: #ff99be;}
+    to {background-color: white;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    from {background-color: #ff99be;}
+    to {background-color: white;}
+}
+
+#arrow-left{
+	height: 100vh;
+    width: 120vw;
+    position: absolute;
+    clear: both;
+    mix-blend-mode: multiply;
+   
+}
+

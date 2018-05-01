@@ -1,0 +1,83 @@
+body{
+			background-color: white;
+            margin: 0;
+		}
+
+    
+
+
+#bgcircle div{
+	height: 15vw; 
+    width: 15vw;
+    background-color: #00ffe6;
+    margin: 2vw;
+    float: right;
+    border-radius: 50%;
+    box-shadow:20px 20px 70px 10px white inset; 
+    border:white;
+}
+
+#bgcircle .big {
+	height: 20vw; 
+    width: 20vw;
+    background-color: #ff9d00;
+}
+
+#bgcircle #small{
+	height: 7vw; 
+    width: 7vw;
+    background-color: #8800ff;
+}
+
+	
+#halfCircleRight div{
+	width:100px; 
+    height:100px;  
+    background: #ff007a;
+    border-radius: 0 90px 0 0;
+    margin: 7vw;
+    float:left;
+    mix-blend-mode: multiply;
+}
+
+#halfCircleRight{
+	height: 120vh;
+    width: 120vw;
+    position: absolute;
+    clear: both;
+    top: -10vw; 
+    left: -10vw; 
+  
+  	
+}
+
+#halfCircleRight #halfCircleLeft {
+	border-radius: 0 0 0 90px;
+	background: #c1ff00;
+    box-shadow: 100px 100px #ff3d1d;
+}
+
+#circles:hover{
+    -ms-transform: scale(2); /* IE 9 */
+    -webkit-transform: scale(2); /* Safari 3-8 */
+    transform: scale(2); 
+}
+
+#circles {
+    width: 110vw; 
+    position: fixed;
+    top: -10vw; 
+    left: -10vw; 
+}
+
+#circles div {
+	height: 10px;
+	width: 10px;
+	background-color: #f9ff00;
+	border-radius: 50%;
+	margin: 3vw;
+	float: left;
+    box-shadow: 100px 100px #ff007a;
+}
+
+

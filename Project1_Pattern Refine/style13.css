@@ -1,0 +1,83 @@
+body{
+            background: repeating-linear-gradient( #cce8ff, #fff5c2, #cce8ff, #fff5c2);
+		}
+
+
+#bgcircle div{
+	height: 10vw; 
+    width: 10vw;
+    background-color: mistyrose;
+    margin: 2vw;
+    float: right;
+    border-radius: 50%;
+    box-shadow: 20px 20px 50px 10px pink inset;  
+}
+
+#bgcircle .big {
+	height: 20vw; 
+    width: 20vw;
+}
+
+#bgcircle #small {
+	height: 5vw; 
+    width: 5vw;
+}
+
+
+	
+#halfCircleRight div{
+	width:100px; 
+    height:100px;  
+    background: #6900ff;
+    border-radius: 0 90px 0 0;
+    margin: 3vw;
+    float:left;
+}
+
+#halfCircleRight{
+	height: 120vh;
+    width: 120vw;
+    position: fixed;
+    clear: both;
+  	mix-blend-mode: multiply;
+
+  	
+}
+
+#halfCircleRight #halfCircleLeft {
+	border-radius: 0 0 0 90px;
+
+}
+
+#circles {
+    width: 110vw; 
+    position: fixed;
+    top: -5vw; 
+    left: -5vw; 
+
+
+}
+
+#circles div {
+	height: 10px;
+	width: 10px;
+	background-color: #f2eb00;
+	border-radius: 50%;
+	margin: 5vw;
+	float: left;
+    box-shadow: 20px 20px #bd71ff;  
+    -webkit-animation: mymove 1s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 1s infinite;
+}
+
+@-webkit-keyframes mymove {
+    from {background-color: #f2eb00;}
+    to {background-color: #ff0086;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    from {background-color: #f2eb00;}
+    to {background-color: #ff0086;}
+}
+

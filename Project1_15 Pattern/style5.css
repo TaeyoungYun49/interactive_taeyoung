@@ -1,0 +1,93 @@
+body{
+		background: yellow;
+		margin:0;
+		}
+
+
+
+#diamond {
+	width: 0;
+	height: 0;
+	border: 900px solid transparent;
+	border-bottom-color: #ffffff;
+	position: relative;
+	top: -900px;
+	float:left;
+	transform: rotate(20deg);
+}
+#diamond:after {
+	content: '';
+	position: absolute;
+	left: -900px;
+	top: 900px;
+	width: 0;
+	height: 0;
+	border: 900px solid transparent;
+	border-top-color: red;
+	float:left;
+}
+
+#diamond #diamond2 {
+	width: 0;
+	height: 0;
+	border: 50px solid transparent;
+	border-bottom-color: red;
+	position: relative;
+	top: -50px;
+	float:left;
+
+	transform: rotate(20deg);
+}
+#diamond #diamond2:after {
+	content: '';
+	position: absolute;
+	top: 50px;
+	width: 0;
+	height: 0;
+	border: 50px solid transparent;
+	border-top-color: #ffffff;
+	float:left;
+
+	transform: rotate(20deg);
+
+}
+
+#lines div{
+	top:-5vw;
+	background-color: #001b60;
+	height: 10vw;
+	width: 110px;
+	border-radius: 0%;
+	margin: 10px;
+	float:left;
+	transform: rotate(-40deg);
+
+}
+
+#lines{
+	height: 50vh;
+    width: 100vw;
+    position: fixed;
+    clear: both;
+    mix-blend-mode: overlay;
+
+}
+
+#circles div{
+	background-color: #ffffa4;
+	height: 10vw;
+	width: 10vw;
+	margin: 3vw;
+	border-radius: 50%;
+	float:right;
+
+}
+
+#circles{
+	height: 100vh;
+    width: 100vw;
+    position: absolute;
+    clear: both;
+    mix-blend-mode: exclusion;
+}
+

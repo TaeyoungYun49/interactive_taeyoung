@@ -1,0 +1,41 @@
+body {
+	background-color: mistyrose;
+	margin: 0; 
+}
+
+#squares div{
+	height: 10vw; 
+    width: 10vw;
+    background-color: tomato;
+    margin: 2vw;
+    float: right;
+    box-shadow: 20px 20px 20px #ff3600;
+    mix-blend-mode: overlay;
+}
+
+
+#squares .blue {
+	background-color: #6200fc;
+}
+
+#squares #yellow {
+	background-color: #c1ff00;
+}
+
+#circles div {
+    height: 1vw;
+    width: 10vw;
+    background-color: #f2eb00;
+    margin: 3vw;
+    float: left;
+
+
+}
+
+#circles {
+    width: 110vw; 
+    position: fixed;
+    top: -5vw; 
+    left: -5vw; 
+    mix-blend-mode: overlay;
+}

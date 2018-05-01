@@ -1,0 +1,62 @@
+body{
+			background-color: white;
+		}
+
+
+#squares div{
+	height:20vh;
+	width: 10vw;
+	background: linear-gradient( to bottom right, #f9ff00, #4be8b3);
+	margin:1vw;
+	float: right;
+	
+}
+
+#squares{
+	mix-blend-mode: screen;
+	transform: rotate(20deg);
+}
+
+#lines div{
+	background-color: #ffffff;
+	height: 5vw;
+	width: 5vw;
+	border-radius: 0%;
+	margin: 1vw;
+	float:left;
+
+}
+
+#lines{
+	height: 100vh;
+    width: 100vw;
+    position: fixed;
+    clear: both;
+   	transform: rotate(-20deg);
+}
+	
+
+
+#arrow-right div{
+  width: 0; 
+  height: 0; 
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-right: 50px solid #ffb600;
+  margin: 3vw;
+  float:left;
+  transform: roate(-15deg); 
+}
+
+#arrow-right{
+    position: fixed;
+    clear: both;
+    transform: roate(-15deg); 
+  	mix-blend-mode: multiply;
+}
+
+#arrow-right:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}

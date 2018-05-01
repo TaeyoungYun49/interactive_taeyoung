@@ -1,0 +1,69 @@
+body {
+	background-color: #c894ff;
+	margin: 0; 
+}
+
+#toptriangles {
+	width: 150vw;
+    height: 150vh;
+    position: absolute;
+    top: -50;
+    left: -10;
+}
+
+#toptriangles div { 
+	width: 0;
+	height: 0;
+    border-left: 3vw solid transparent;
+    border-right: 5vw solid transparent;
+    border-top: 60vw solid tomato;
+	float: left;
+    transform: rotate(20deg);
+    mix-blend-mode: overlay;
+    opacity: 0.5;
+}
+
+#toptriangles .blue {
+	background-color: #6200fc;
+}
+
+#toptriangles #yellow {
+	background-color: #c1ff00;
+}
+>
+
+#circles {
+    width: 120vw; 
+    position: fixed;
+    top: -5vw; 
+    left: -5vw; 
+    transform: roate(35deg); 
+}
+
+#circles div {
+	height: 5vw;
+	width: 5vw;
+	background-color: rgb(112, 206, 122);
+	border-radius: 50%;
+	margin: 1vw;
+	float: left;
+}
+
+#triangles {
+	width: 150vw;
+    height: 150vh;
+    position: absolute;
+    top: -10;
+    left: 0;
+}
+
+#triangles div { 
+	width: 0;
+	height: 0;
+    border-left: 3vw solid transparent;
+    border-right: 5vw solid transparent;
+    border-bottom: 60vw solid mistyrose;
+	float: left;
+    transform: rotate(20deg);
+    mix-blend-mode: overlay;
+}

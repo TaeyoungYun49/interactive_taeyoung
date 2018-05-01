@@ -1,0 +1,66 @@
+body{
+			background-color: white;
+			margin:0;
+		}
+
+
+#squares div{
+	height:600vh;
+	width: 150vw;
+	background: linear-gradient(#ffc5c5, #ffe2b8, #84d9e6);
+	float: right;
+}
+
+
+#arrow-right{
+    position: fixed;
+    clear: both;
+}
+
+
+#lines div{
+	background-color: #ffffff;
+	height: 80vw;
+	width: 2px;
+	border-radius: 0%;
+	margin: 2px;
+	float:left;
+}
+
+#lines{
+	height: 100vh;
+    width: 100vw;
+    position: fixed;
+    clear: both;
+}
+
+
+#arrow-right div{
+  width: 0; 
+  height: 0; 
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  border-left: 70px solid #ff0080;
+  margin: 2vw;
+  float:left;
+  opacity: 0.7;
+}
+
+#circles div{
+	background-color: #ffffa4;
+	height: 10vw;
+	width: 10vw;
+	margin: 3vw;
+	border-radius: 50%;
+	float:right;
+
+}
+
+#circles{
+	height: 100vh;
+    width: 100vw;
+    position: absolute;
+    clear: both;
+    mix-blend-mode: exclusion;
+}
+

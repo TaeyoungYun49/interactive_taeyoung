@@ -1,0 +1,47 @@
+body {
+	background-color: mistyrose;
+	margin: 0; 
+}
+
+#squares div{
+	height: 10vw; 
+    width: 10vw;
+    background-color: mistyrose;
+    margin: 2vw;
+    float: right;
+    box-shadow: 20px 20px 20px #ff3600;
+    border-radius: 50%;
+   
+}
+
+#squares .blue {
+	height: 20vw; 
+    width: 20vw;
+	box-shadow: 20px 20px 20px #ffb000;
+}
+
+#squares #yellow {
+	height: 5vw; 
+    width: 5vw;
+	box-shadow: 20px 20px 20px #ff007a;
+}
+
+#circles {
+    width: 110vw; 
+    position: fixed;
+    top: -5vw; 
+    left: -5vw; 
+
+
+}
+
+#circles div {
+	height: 1vw;
+	width: 1vw;
+	background-color: #f2eb00;
+	box-shadow: 20px 20px 20px #9ae000;
+	border-radius: 50%;
+	margin: 5vw;
+	float: left;
+
+}

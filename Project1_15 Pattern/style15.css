@@ -1,0 +1,71 @@
+body{
+			background-color: white;
+		}
+
+
+#squares div{
+	height: 10vw; 
+    width: 10vw;
+    background-color: #00ffe6;
+    margin: 2vw;
+    float: right;
+    border-radius: 50%;
+}
+
+#squares .blue {
+	height: 20vw; 
+    width: 20vw;
+    background-color: #ff9d00;
+}
+
+#squares #yellow {
+	height: 5vw; 
+    width: 5vw;
+    background-color: #8800ff;
+}
+
+	
+#halfCircleRight div{
+
+	width:100px; 
+    height:100px;  
+    background: #ff007a;
+    border-radius: 0 90px 0 0;
+    float:left;
+}
+
+#halfCircleRight{
+	height: 120vh;
+    width: 120vw;
+    position: absolute;
+    clear: both;
+  	mix-blend-mode: multiply;
+  	
+}
+
+#halfCircleRight #halfCircleLeft {
+	border-radius: 0 0 0 90px;
+	background: #00fff8;
+}
+
+
+#circles {
+    width: 110vw; 
+    position: fixed;
+    top: -5vw; 
+    left: -5vw; 
+
+
+}
+
+#circles div {
+	height: 1vw;
+	width: 1vw;
+	background-color: #f9ff00;
+	border-radius: 50%;
+	margin: 5vw;
+	float: left;
+
+}
+
+

@@ -1,0 +1,51 @@
+body{
+			background-color: white;
+		}
+
+
+
+#lines div{
+	background-color: #00f3ff;
+	height: 110vw;
+	width: 10px;
+	border-radius: 0%;
+	margin: 1vw;
+	float:left;
+
+}
+
+#lines{
+	top: -30vw;
+	right: -10px;
+	height: 180vh;
+    width: 180vw;
+    position: fixed;
+    clear: both;
+   	transform: rotate(-20deg);
+}
+	
+#halfCircleRight div{
+     height:130px;
+     width:65px;
+     border-radius: 0 90px 90px 0;
+     background:#6900ff;
+     margin: 3px;
+     float:left;
+}
+
+#halfCircleRight{
+	height: 120vh;
+    width: 120vw;
+    position: absolute;
+    clear: both;
+  	mix-blend-mode: multiply;
+
+  	
+}
+
+#halfCircleRight #halfCircleLeft {
+	border-radius: 90px 0 0 90px;
+}
+
+
+
