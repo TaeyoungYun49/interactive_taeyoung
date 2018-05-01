@@ -1,0 +1,45 @@
+body{
+   position:fixed;
+   text-align: left;       
+   font-family: 'Sirin Stencil', cursive;
+   font-size: 150px;
+   top:-10%;
+   color: #000000;
+}
+
+#myDIV {
+    width: 100vw;
+    height: 50vh;
+    text-align: center;
+    transform: rotate(12deg);
+}
+
+#myDIV #number{
+  margin-top: -150px;
+  transform: rotate(330deg);
+  font-size: 200px;
+}
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+
+

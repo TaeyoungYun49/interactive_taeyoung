@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>button44</title>
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+  <style>
+  p {
+    font-family: 'Space Mono', monospace;
+    position: relative;
+    width: 400px;
+    height: 90px;
+  }
+  div {
+     font-family: 'Space Mono', monospace;
+    position: absolute;
+    width: 500px;
+    height: 120px;
+    font-size: 36px;
+    text-align: center;
+    color: yellow;
+    background: blue;
+    padding-top: 25px;
+    top: 0;
+    left: 0;
+    display: none;
+  }
+  span {
+    font-family: 'Space Mono', monospace;
+    display: none;
+  }
+
+  a:link {
+    color:yellowgreen;
+    text-decoration: none;
+  }
+
+  a:visited {
+  color:yellowgreen;
+    text-decoration: none;
+  }
+
+  a:active {
+    text-decoration:none;
+
+  </style>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+ 
+<p>
+  Let it be known that the party of the first part
+  and the party of the second part are henceforth
+  and hereto directed to assess the allegations
+  for factual correctness... (<a href="#">click!</a>)
+   <div><span><a href="button45.html">STOP! click to go 45</a></span></div> 
+</p>
+ 
+<script>
+$( "a" ).click(function() {
+  $( "div" ).fadeIn( 3000, function() {
+    $( "span" ).fadeIn( 100 );
+  });
+  return false;
+});
+</script>
+ 
+</body>
+</html>

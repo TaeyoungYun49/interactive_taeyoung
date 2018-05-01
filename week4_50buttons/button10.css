@@ -1,0 +1,33 @@
+body{
+  float:left;
+  color: #000000;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: yellow;  
+
+}
+
+#myDIV{
+  float: left;
+  text-align: center;       
+  font-family: 'Faster One', cursive;
+  font-size: 100px;
+  display: flex;
+  justify-content: left;
+}
+
+#myDIV #click{
+  float: left;
+  color:blue;
+  display: flex;
+  justify-content: left;
+}
+
+a{
+  float: left;
+  text-decoration: none;
+  display: flex;
+  justify-content: left;
+}

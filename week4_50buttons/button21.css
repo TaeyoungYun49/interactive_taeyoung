@@ -1,0 +1,37 @@
+body{
+  background-color: #FFD539;
+   position:fixed;
+   top: 50%;
+   left: 50%;
+}
+
+div {
+    width: 350px;
+    height: 100px;
+    text-align:center;
+    font-family: 'Space Mono', monospace;
+    color:tomato;
+    font-size: 100px;
+    -webkit-transition: width 1s, height 1s, -webkit-transform 1s; /* Safari */
+    transition: width 1s, height 1s, transform 1s;
+
+}
+
+div:hover {
+    color:deeppink;
+    -webkit-transform: rotate(360deg); /* Safari */
+    transform: rotate(360deg);
+    text-decoration: line-through;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration:none;
+}

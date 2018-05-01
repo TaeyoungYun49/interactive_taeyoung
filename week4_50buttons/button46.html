@@ -1,0 +1,95 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>button46</title>
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+  <style>
+  body{
+   position:fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+  div, p {
+    font-family: 'Space Mono', monospace;
+    width: 80px;
+    height: 40px;
+    top: 0;
+    margin: 0;
+    position: absolute;
+    padding-top: 8px;
+  }
+
+  p {
+    background: red;
+    text-align: center;
+    width: 80px;
+    
+  }
+  div {
+   
+    background: blue;
+    color:deeppink;
+    font-size: 100px;
+  }
+
+  a:link {
+    color:yellowgreen;
+    text-decoration: none;
+  }
+
+  a:visited {
+  color:yellowgreen;
+    text-decoration: none;
+  }
+
+  a:active {
+    text-decoration:none;
+
+  </style>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+
+
+<p>Hello</p>
+<div></div>
+<p>Hey</p>
+<div></div>
+
+<a href="button47.html"><p>Hi</p>
+<div></div></a>
+ 
+<script>
+var getPos = function( n ) {
+  return (Math.floor( n ) * 90) + "px";
+};
+$( "p" ).each(function( n ) {
+  var r = Math.floor( Math.random() * 3 );
+  var tmp = $( this ).text();
+  $( this ).text( $( "p:eq(" + r + ")" ).text() );
+  $( "p:eq(" + r + ")" ).text( tmp );
+  $( this ).css( "left", getPos( n ) );
+});
+$( "div" )
+  .each(function( n ) {
+    $( this ).css( "left", getPos( n ) );
+  })
+  .css( "cursor", "pointer" )
+  .click( function() {
+    $( this ).fadeTo( 250, 0.25, function() {
+      $( this )
+        .css( "cursor", "" )
+        .prev()
+          .css({
+            "font-weight": "bolder",
+            "font-style": "italic"
+          });
+    });
+  });
+</script>
+ 
+ 
+</body>
+</html>

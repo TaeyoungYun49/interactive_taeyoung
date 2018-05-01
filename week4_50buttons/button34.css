@@ -1,0 +1,33 @@
+body{
+        font-size: 50px;
+        font-family: 'Space Mono', monospace;
+    }
+
+div {
+    background: sandybrown;
+    width: 50vw;
+    height: 30vh; 
+    padding: 30px;
+  }
+
+
+a:link {
+    color:white;
+    text-decoration: none;
+}
+
+a:visited {
+    color:white;
+    text-decoration: none;
+}
+
+a:active {
+    color:white;
+    text-decoration:none;
+}
+
+#example1 {
+    border: none;
+    padding: 10px;
+    box-shadow: 10px 10px coral, 20px 20px yellow, 30px 30px orange;
+}

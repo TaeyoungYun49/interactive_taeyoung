@@ -1,0 +1,54 @@
+body{
+  background-color: black;
+  position:fixed;
+  top: 20%;
+  left: 20%;
+  font-family: 'Lora', serif;
+}
+
+div {
+    font-family: 'Lora', serif;
+    text-align:center;
+    color:white;
+    font-size: 200px;
+}
+
+
+#div2 {
+    padding: 70px;
+    position: absolute;
+    border: none;
+    background-color: #69E3EE;
+    -webkit-transform: rotateY(20deg); /* Safari 3-8 */
+    -webkit-transform-style: preserve-3d; /* Safari 4-8 */
+    transform: rotateY(20deg);
+    transform-style: preserve-3d;
+}
+
+#div3 {
+    padding: 40px;
+    position: absolute;
+    border: none;
+    color:tomato;
+    background-color: yellow;
+    -webkit-transform: rotateY(-40deg); /* Safari 3-8 */
+    transform: rotateY(-40deg);
+
+}
+
+div:hover {
+    color:white;
+    text-decoration: line-through;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration:none;
+}

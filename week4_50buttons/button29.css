@@ -1,0 +1,33 @@
+
+ul {
+    margin-top: -20px;
+    margin-left: 100px;
+    color: #6724D7;
+    font-size: 100px;
+    font-family: 'Space Mono', monospace;
+  }
+  li {
+    cursor: default;
+  }
+  span {
+    color: yellow;
+  }
+ 
+  a:link {
+    color:violet;
+    text-decoration: none;
+}
+
+a:visited {
+    color:violet;
+    text-decoration: none;
+}
+
+a:hover {
+    color:violet;
+    text-decoration: line-through;
+}
+
+a:active {
+    text-decoration:none;
+}

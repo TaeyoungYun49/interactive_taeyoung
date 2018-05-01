@@ -1,0 +1,56 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Sirin Stencil', cursive;
+}
+
+/* container */
+
+.container {
+  position: relative;
+
+}
+
+/* items */
+
+.item {
+  height: 400px;
+  width: 400px;
+  padding:10px;
+  background: #00E8E0;
+  color: yellow;
+  font-size: 200px;
+  margin: 50px;
+
+  /* comment out 'float: left;' to have items stack in a single column */
+  float: left; 
+
+  /* uncomment this to get CSS transitions (conflicts with jQuery) */
+  /* transition: all 500ms ease; */
+}
+
+/* example buttons */
+
+}
+#button-3{
+
+  /*transition: all 2s;*/
+}
+
+.change-yellow {
+  background-color: yellow;
+  color:#00E8E0;
+  transition: all 1s;
+  border-radius: 200%;
+}
+#button-4{
+  background-color: violet;
+  font-size: 90px;
+}
+
+#button-5{
+  font-size:90px;
+}

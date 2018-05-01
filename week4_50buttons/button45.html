@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>button45</title>
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+  <style>
+  p {
+    
+    width: 80px;
+    
+  }
+  div {
+    font-family: 'Space Mono', monospace;
+    margin: 50px;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    color:deeppink;
+    font-size: 100px;
+  }
+  #one {
+    top: 0;
+    left: 0;
+    background: coral;
+  }
+  #two {
+    top: 50px;
+    left: 50px;
+    background: yellow;
+  }
+  #three {
+    top: 100px;
+    left:100px;
+    background:orange;
+  }
+
+  a:link {
+    color:yellowgreen;
+    text-decoration: none;
+  }
+
+  a:visited {
+  color:yellowgreen;
+    text-decoration: none;
+  }
+
+  a:active {
+    text-decoration:none;
+
+  </style>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+ 
+<a href="button46.html"><div id="one">next</div></a>
+<div id="two">fade</div>
+<div id="three">fade</div>
+
+<script>
+$( "div" ).click(function() {
+  $( this ).fadeTo( "fast", Math.random() );
+});
+</script>
+ 
+</body>
+</html>

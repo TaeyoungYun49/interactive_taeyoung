@@ -1,0 +1,45 @@
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+  background-color: #FF3F92;
+  font-family: 'Space Mono', monospace;
+  font-size:100px;
+  text-align: right;
+}
+
+#button-2::after {
+	text-decoration: none;
+	content: 'twelfth button';
+	color: white;
+}
+
+
+#button-2:hover::after {
+	text-decoration: none;
+	content: '12th button';
+	color:orange;
+}
+	
+
+a:link {
+    color:#ffffff;
+    text-decoration: none;
+}
+
+a:visited {
+    color:#ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+	color:#ffffff;
+    text-decoration:none;
+}

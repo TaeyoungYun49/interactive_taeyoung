@@ -1,0 +1,36 @@
+body{
+        font-size: 50px;
+        font-family: 'Space Mono', monospace;
+        color:deeppink;
+       
+    }
+
+div {
+    background: lemonchiffon;
+    width: 100vw;
+    height: 100vh; 
+    padding: 30px;
+  }
+
+
+a:link {
+    color:deeppink;
+    text-decoration: none;
+}
+
+p i:hover {
+    background-color: yellow;
+}
+a:visited {
+    color:deeppink;
+    text-decoration: none;
+}
+
+a:active {
+    color:deeppink;
+    text-decoration:none;
+}
+
+p i:first-child {
+    color: yellowgreen;
+} 

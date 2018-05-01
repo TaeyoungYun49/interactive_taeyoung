@@ -1,0 +1,53 @@
+body{
+   position:absolute;
+   text-align: left;       
+   font-family: 'Nunito', sans-serif;
+   font-size: 100px;
+   color: #000000;
+}
+
+#myDIV {
+    float: center;
+    width: 80vw;
+    height: 20vh;
+    text-align: center;
+    -webkit-animation: mymove 4s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 4s infinite;
+}
+
+@-webkit-keyframes mymove {
+    from {background-color: blue;}
+    to {background-color: #3F41FF;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    from {background-color: blue;}
+    to {background-color: #3F41FF;}
+}
+
+a:link {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* visited link */
+a:visited {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+    text-decoration: underline;
+    background: 
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+
+

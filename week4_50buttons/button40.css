@@ -1,0 +1,41 @@
+body{
+   position:fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-family: 'Space Mono', monospace;
+}
+div{
+  border: none;
+  color: tomato;
+  text-align: center;
+  font-size: 500px;
+  cursor: pointer;
+  -webkit-animation: mymove 0.1s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 0.1s infinite;
+}
+
+@-webkit-keyframes mymove {
+    from {color: #f2eb00;}
+    to {color: ##ff0086;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    from {color: #f2eb00;}
+    to {color: #ff0086;}
+}
+
+
+  a:link {
+    color:white;
+    text-decoration: none;
+  }
+
+  a:visited {
+  color:white;
+    text-decoration: none;
+  }
+
+  a:active {
+    text-decoration:none;

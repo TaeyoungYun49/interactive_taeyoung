@@ -1,0 +1,25 @@
+body{
+   position:fixed;
+   top: 50%;
+   left: 33%;
+   transform: translate(-50%, -50%);
+   font-family: 'Space Mono', monospace;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 0px;
+  background: #ffffff;
+  border: none;
+  color: #F5F9FF;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-size: 900px;
+  padding: 10px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button:hover { color:blue; }

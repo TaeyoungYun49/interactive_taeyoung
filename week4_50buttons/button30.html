@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <title>button30</title>
+
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+     <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+<style>
+  div {
+    background: #FFA2B7;
+    border: none;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    float: left;
+    font-size: 80px;
+    font-family: 'Space Mono', monospace;
+    color:yellow;
+  }
+  div.colored {
+    background: #D7244C;
+  }
+  </style>
+
+</head>
+
+
+<body>
+	 
+	<button id="run">Change the button color!</button>
+	<div>This is 30</div>
+	<a href="button31.html">
+	<div id="mover">31</div></a>
+	<div></div>
+
+		<script>
+			$( "#run" ).click(function() {
+			  $( "div:animated" ).toggleClass( "colored" );
+			});
+			 
+			function animateIt() {
+			  $( "#mover" ).slideToggle( "slow", animateIt );
+			}
+			 
+			animateIt();
+		</script>
+
+</body>
+</html>

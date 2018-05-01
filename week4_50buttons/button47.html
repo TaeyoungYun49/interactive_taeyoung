@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>button47</title>
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+  <style>
+
+  body{
+   position:fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+ .button {
+    font-family: 'Space Mono', monospace;
+    background-color: white;
+    border: none;
+    color: pink;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button2:hover {
+    box-shadow: 0 20px 40px 0 pink,0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button2::after {
+  content: '...47';
+  color: pink;
+}
+
+
+.button2:hover::after {
+  content: '...48 >>';
+  color: pink;
+}
+  a:link {
+    color:yellowgreen;
+    text-decoration: none;
+  }
+
+  a:visited {
+  color:yellowgreen;
+    text-decoration: none;
+  }
+
+  a:active {
+    text-decoration:none;
+
+  </style>
+</head>
+<body>
+
+<a href="button48.html"><button class="button button2">this is</button></a>
+ 
+</body>
+</html>

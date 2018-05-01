@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+  <title>button42</title>
+  <style>
+  span {
+    font-family: 'Space Mono', monospace;
+    color: black;
+    cursor: pointer;
+    background: yellow;
+  }
+  div {
+    font-family: 'Space Mono', monospace;
+    color:white;
+    font-size: 100px;
+    padding: 20px;
+    margin: 10px;
+    width: 20vw;
+    display: none;
+    height: 20vh;
+    float: left;
+  }
+  #one {
+    background: red;
+  }
+  #two {
+    background: tomato;
+  }
+  #three {
+    background: coral;
+  }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+ 
+<span>Button 42. Click me!</span>
+<a href="button43.html"><div id="one">Hello!</div></a>
+
+<script>
+$( document.body ).click(function() {
+  $( "div:hidden:first" ).fadeIn( "slow" );
+});
+</script>
+ 
+</body>
+</html>

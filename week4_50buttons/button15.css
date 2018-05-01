@@ -1,0 +1,31 @@
+body{
+
+}
+
+.button {
+    font-family: 'Space Mono', monospace;
+    background-color: white; /* Green */
+    border: none;
+    color: white;
+    padding: 100px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 100px;
+    margin: 10px 8px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 5px solid #222222;
+}
+
+.button1:hover {
+    background-color: #222222;
+    color: white;
+}

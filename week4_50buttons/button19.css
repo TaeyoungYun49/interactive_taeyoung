@@ -1,0 +1,47 @@
+body{
+text-align:center;
+font-family: 'Roboto Mono', monospace;
+font-size: 100px;
+background-color: white;
+}
+
+div {
+    width: 140px;
+    height: 140px;
+    border-radius: 200px;
+    padding: 20px;
+    color:white;
+    background: red;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin top: 30px;
+    -webkit-transition: width 1s; /* Safari */
+    transition: width height 1s;
+}
+
+div:hover {
+    width: 800px;
+    height: 800px;
+    border-radius: 0px;
+    font-size: 400px;
+}
+
+a:link {
+    color:black;
+    text-decoration: none;
+}
+
+a:visited {
+    color:black;
+    text-decoration: none;
+}
+
+a:hover {
+    color:white;
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration:none;
+}

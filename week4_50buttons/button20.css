@@ -1,0 +1,41 @@
+body{
+  background-color: white;
+}
+
+div {
+    width: 350px;
+    height: 350px;
+    background: tomato;
+    text-align:center;
+    font-family: 'Space Mono', monospace;
+    font-size: 100px;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+}
+
+div:hover {
+    width: 800px;
+    height: 800px;
+    -webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(180deg);
+    background-color:deeppink;
+}
+
+a:link {
+    color:white;
+    text-decoration: none;
+}
+
+a:visited {
+    color:white;
+    text-decoration: none;
+}
+
+a:hover {
+    color:white;
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration:none;
+}

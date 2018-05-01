@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>button50</title>
+   <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+
+  <style>
+  div {
+  font-family: 'Space Mono', monospace;
+  color:white;
+  font-size: 50px;
+  width: 400px;
+  padding: 10px;
+  height: 300px;
+  float: left;
+  margin: 5px;
+  background: pink;
+  cursor: pointer;
+  }
+  .mod {
+  background: coral;
+  cursor: default;
+  }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+ 
+<div>50</div>
+<div>yay</div>
+<div>50</div>
+<div>yay</div>
+<a href="button1.html"><div>go back to button1</div></a>
+ 
+<script>
+var modWidth = 200;
+$( "div" ).one( "click", function() {
+$( this ).innerWidth( modWidth ).addClass( "mod" );
+modWidth -= 10;
+});
+</script>
+ 
+</body>
+</html>

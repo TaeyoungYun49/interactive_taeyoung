@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <title>button41</title>
+  <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+  <link rel="stylesheet" href="button41.css">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    var state = true;
+    $( "#button" ).on( "click", function() {
+      if ( state ) {
+        $( "#effect" ).animate({
+          backgroundColor: "blue",
+          color: "tomato",
+          width: 1500
+        }, 1000 );
+      } else {
+        $( "#effect" ).animate({
+          backgroundColor: "tomato",
+          color: "#000",
+          width: 540
+        }, 1000 );
+      }
+      state = !state;
+    });
+  } );
+  </script>
+
+</head>
+
+
+<body>
+ 
+<div class="toggler">
+  <div id="effect" class="ui-widget-content ui-corner-all">
+     <a href="button42.html"><h3 class="ui-widget-header ui-corner-all"> 42 gogogo</h3></a>
+    <p>
+      Forty one! Forty one! Forty one! Forty one! Forty one! Forty one! Forty one! Forty one! Forty one! Forty one! Forty one! Forty one! Forty one! 
+    </p>
+  </div>
+</div>
+ 
+<button id="button" class="ui-state-default ui-corner-all">Try Me</button>
+
+</body>
+</html>
+

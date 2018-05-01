@@ -1,0 +1,38 @@
+body{
+text-align:center;
+font-family: 'VT323', monospace;
+font-size: 100px;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: white;
+}
+
+.flex-container > div {
+  background-color: #C4FF00;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 50px;
+}
+
+a:link {
+    color:black;
+    text-decoration: none;
+}
+
+a:visited {
+    color:black;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#8300FF;
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration:none;
+}

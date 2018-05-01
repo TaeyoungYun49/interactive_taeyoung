@@ -1,0 +1,52 @@
+body{
+   position:absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-family: 'Space Mono', monospace;
+}
+
+.div2 {
+  text-align:left;
+  top:-900%;
+  font-size: 200px;
+  color:yellowgreen;
+  float:right;
+  border: none;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: yellowgreen;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px yellow;
+}
+
+.button:hover {background-color: blue}
+
+.button:active {
+  background-color: orange;
+  box-shadow: 0 5px navy;
+  transform: translateY(4px);
+}
+
+  a:link {
+    color:white;
+    text-decoration: none;
+  }
+
+  a:visited {
+  color:white;
+    text-decoration: none;
+  }
+
+  a:active {
+    text-decoration:none;

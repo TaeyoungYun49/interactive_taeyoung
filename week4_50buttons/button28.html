@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+
+  <title>button28</title>
+  <style>
+  ul {
+    margin-top: -20px;
+    margin-left: 100px;
+    color: violet;
+    font-size: 100px;
+    font-family: 'Space Mono', monospace;
+  }
+  li {
+    cursor: default;
+  }
+  li.active {
+    background: black;
+    color: white;
+  }
+  span {
+    color:red;
+  }
+
+  a:link {
+    color:violet;
+    text-decoration: none;
+}
+
+a:visited {
+    color:violet;
+    text-decoration: none;
+}
+
+a:hover {
+    color:violet;
+    text-decoration: line-through;
+}
+
+a:active {
+    text-decoration:none;
+}
+
+  </style>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+ 
+<ul>
+  <li>25</li>
+  <li>26</li>
+  <li>27</li>
+  <li>28</li>
+    	<a href="button29.html"> 
+  <li>29</li></a>
+  <li>30</li>
+</ul>
+ 
+<script>
+$( "li" )
+  .filter( ":odd" )
+    .hide()
+  .end()
+  .filter( ":even" )
+    .hover(function() {
+      $( this )
+        .toggleClass( "active" )
+        .next()
+          .stop( true, true )
+          .slideToggle();
+    });
+</script>
+ 
+</body>
+</html>
