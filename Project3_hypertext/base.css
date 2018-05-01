@@ -1,0 +1,209 @@
+html,body {
+  padding: 1em 2em;
+  font-size: 18px;
+  background: #222;
+  color: #aaa;
+  width: 270vw;
+  height: 120vh;
+}
+
+h1{
+  margin: 0.4em 0;
+  font-size: 3.5em; 
+}
+  .title{
+      margin: 40px 0px 0px 40px;
+      font-family: 'Karla',sans-serif;
+      font-weight: 400;
+      color: black;
+      -webkit-text-fill-color: #222; 
+      -webkit-text-stroke-width: 0.5px;
+      -webkit-text-stroke-color: pink;
+   }
+
+/*click and appear function*/
+
+   .opacity{
+   	opacity: 0;
+   	left: -100000px;
+   	position: absolute;
+   }
+
+   .appear{
+   	opacity: 1;
+   	position: relative;
+   	left:auto;
+   }
+
+
+/*본문 스타일링*/
+  .column{
+  	float: left;
+  	line-height: 2em;
+  	font-size: 20px;
+  	margin-top:5vh;
+    margin-bottom: 10vh;
+    margin-left: 40px;
+  }
+
+  /*language specific typefaces*/
+
+  /*korean*/
+  .a1, .a19 {
+  font-family: 'Gothic A1', sans-serif;
+  }
+  /*Chinese*/
+  .a3, .a17 {
+    font-family: 'Microsoft MingLiU', sans-serif;
+    font-weight: bold;
+  }
+  /*Latin*/
+  .a2, .a4, .a6, .a9, .a11, .a14, .a16, .a18, .a10{
+    font-family: 'Karla',sans-serif;
+    font-weight: 700;
+  }
+  /*hindi*/
+  .a5, .a15 {
+    font-family: 'Yatra One', cursive;
+  }
+  /*arabic*/
+  .a7, .a13{
+  font-family: 'Tajawal', sans-serif;
+  }
+  /*Japanese*/
+  .a8, .a12{
+  font-family: 'Hiragino Kaku Gothic Pro', sans-serif;
+  font-weight: bold;
+  }
+
+/*text opacity*/
+  .first{
+    color:pink;
+    width: 50vw;
+  }
+  .a2, .a18{
+    opacity: 0.9;
+  }
+  .a3, .a17{
+    opacity: 0.8;
+  }
+  .a4, .a16{
+    opacity: 0.7;
+  }
+  .a5, .a15{
+    opacity: 0.6;
+  }
+  .a6, .a14{
+    opacity: 0.5;
+  }
+  .a7, .a13{
+    opacity: 0.4;
+  }
+  .a8, .a12{
+    opacity: 0.3;
+  }
+  .a9, .a11{
+    opacity: 0.2;
+  }
+  .a10{
+    opacity: 0.1;
+  }
+
+  .text:hover{
+    color:#444;
+    cursor: url(cursor-01.png),auto;
+   }
+
+
+/*second column*/
+  .second{
+    color:#FFF2BC;
+    width: 70vw;
+  }
+  /*language specific typefaces*/
+  /*korean*/
+  .b1, .b19 {
+  font-family: 'Gothic A1', sans-serif;
+  }
+  /*Chinese*/
+  .b3, .b17 {
+    font-family: 'Microsoft MingLiU', sans-serif;
+    font-weight: bold;
+  }
+  /*Latin*/
+  .b2, .b4, .b6, .b9, .b11, .b14, .b16, .b18, .b10{
+    font-family: 'Karla',sans-serif;
+    font-weight: 700;
+  }
+   /*hindi*/
+  .b5, .b15 {
+    font-family: 'Yatra One', cursive;
+  }
+  /*arabic*/
+  .b7, .b13{
+  font-family: 'Tajawal', sans-serif;
+  }
+  /*Japanese*/
+  .b8, .b12{
+  font-family: 'Hiragino Kaku Gothic Pro', sans-serif;
+  font-weight: bold;
+  }
+
+/*text opacity*/
+  .b2, .b18{opacity: 0.9;}
+  .b3, .b17{opacity: 0.8;}
+  .b4, .b16{opacity: 0.7;}
+  .b5, .b15{opacity: 0.6;}
+  .b6, .b14{opacity: 0.5;}
+  .b7, .b13{opacity: 0.4;}
+  .b8, .b12{opacity: 0.3;}
+  .b9, .b11{opacity: 0.2;}
+  .b10{opacity: 0.1;}
+
+  /*third column*/
+  .third{
+    color:#B8AEFF;
+    width: 80vw;
+  }
+  /*language specific typefaces*/
+  /*korean*/
+  .c1, .c19 {
+  font-family: 'Gothic A1', sans-serif;
+  }
+  /*Chinese*/
+  .c3, .c17 {
+    font-family: 'Microsoft MingLiU', sans-serif;
+    font-weight: bold;
+  }
+  /*Latin*/
+  .c2, .c4, .c6, .c9, .c11, .c14, .c16, .c18, .c10{
+    font-family: 'Karla',sans-serif;
+    font-weight: 700;
+  }
+   /*hindi*/
+  .c5, .c15 {
+    font-family: 'Yatra One', cursive;
+  }
+  /*arabic*/
+  .c7, .c13{
+  font-family: 'Tajawal', sans-serif;
+  }
+  /*Japanese*/
+  .c8, .c12{
+  font-family: 'Hiragino Kaku Gothic Pro', sans-serif;
+  font-weight: bold;
+  }
+
+/*text opacity*/
+  .c2, .c18{opacity: 0.9;}
+  .c3, .c17{opacity: 0.8;}
+  .c4, .c16{opacity: 0.7;}
+  .c5, .c15{opacity: 0.6;}
+  .c6, .c14{opacity: 0.5;}
+  .c7, .c13{opacity: 0.4;}
+  .c8, .c12{opacity: 0.3;}
+  .c9, .c11{opacity: 0.2;}
+  .c10{opacity: 0.1;}
+
+
+

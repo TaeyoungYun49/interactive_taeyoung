@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+/* Color schemes */
+.demo-3 {
+	--color-text: #fff;
+	--color-bg: #6314e0;
+	--color-link: #93fbfb;
+	--color-link-hover: #fff;
+	--color-info: #fff;
+	--color-main-text: #93fbfb;
+	--color-scroll-text: #fff;
+	--font-scroll-text: 'Work Sans', sans-serif;
+	--fontsize-scroll-text: 5vw;
+	transition: background-color 0.4s;
+}
+
+.content__section:not(:first-child) {
+	min-height: 100vh;
+}
+
+.content__main{
+		--fontsize-scroll-text: 3vw;
+		 line-height: 1.5;
+}
+.content__contact {
+	--fontsize-scroll-text: 7vw;
+	--color-link: #fc6afa;
+	--color-link-hover: yellow;
+	color: var(--color-main-text);
+}
+
+.content__img {
+	width:50%;
+	height:50%;
+	margin: 0 auto;
+	float:right;
+}
+
+.content__text {
+	font-weight: 300;
+}
+
+@media screen and (max-width: 50em) {
+	.content__section:not(:first-child) {
+		min-height: 0;
+	}
+}

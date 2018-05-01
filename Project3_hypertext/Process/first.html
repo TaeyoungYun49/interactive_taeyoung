@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<meta charset="utf-8" />
+<title>Translate me</title>
+
+  <style>
+
+   .a1{
+    
+   }
+
+   .b1{
+   	margin-left: 10vw;
+   }
+
+   .opacity{
+   	opacity: 0;
+   	left: -100000px;
+   	position: absolute;
+   }
+
+   .appear{
+   	opacity: 1;
+   	position: relative;
+   	left:auto;
+   }
+  
+  body{
+  	font-family: AppleGothic;
+  	width: 160vw;
+  }
+
+  .column{
+  	float: left;
+  	width: 30vw;
+  	line-height: 4em;
+  	font-size:1em;
+  	margin-top:15vh;
+  }
+
+  </style>
+
+  <script>
+  	$(document).ready(function() {
+    $('.a1').click(function() {
+        $('.a2').addClass('appear');
+    });
+
+    $('.a2').click(function() {
+        $('.a3').addClass('appear');
+    });
+
+    $('.a3').click(function() {
+        $('.a4').addClass('appear');
+    });
+
+    $('.a4').click(function() {
+        $('.a5').addClass('appear');
+    });
+
+});
+
+  </script>
+</head>
+
+
+<body>
+
+
+<div class="column b1">
+	<div class="a1">니편내편이 어딨어 세상 다 혼자 사는거지</div>
+	<div class="opacity a2">Where's your side, you're living alone all over the world.</div>
+	<div class="opacity a3">你的身边，你独自生活在世界各地。</div>
+	<div class="opacity a4">Tu lado, vives solo alrededor del mundo.</div>
+	<div class="opacity a5">आपकी तरफ, आप केवल दुनिया भर में रहते हैं।</div>
+
+</div>
+
+<div class="column">
+	<div class="a1">니편내편이 어딨어 세상 다 혼자 사는거지</div>
+	<div class="opacity a2">Where's your side, you're living alone all over the world.</div>
+	<div class="opacity a3">你的身边，你独自生活在世界各地。</div>
+	<div class="opacity a4">Tu lado, vives solo alrededor del mundo.</div>
+	<div class="opacity a5">आपकी तरफ, आप केवल दुनिया भर में रहते हैं।</div>
+
+</div>
+
+<div class="column">
+	<div class="a1">니편내편이 어딨어 세상 다 혼자 사는거지</div>
+	<div class="opacity a2">Where's your side, you're living alone all over the world.</div>
+	<div class="opacity a3">你的身边，你独自生活在世界各地。</div>
+	<div class="opacity a4">Tu lado, vives solo alrededor del mundo.</div>
+	<div class="opacity a5">आपकी तरफ, आप केवल दुनिया भर में रहते हैं।</div>
+
+</div>
+
+<div class="column">
+	<div class="a1">니편내편이 어딨어 세상 다 혼자 사는거지</div>
+	<div class="opacity a2">Where's your side, you're living alone all over the world.</div>
+	<div class="opacity a3">你的身边，你独自生活在世界各地。</div>
+	<div class="opacity a4">Tu lado, vives solo alrededor del mundo.</div>
+	<div class="opacity a5">आपकी तरफ, आप केवल दुनिया भर में रहते हैं।</div>
+
+</div>
+
+
+
+</body>
+</html>
+
+

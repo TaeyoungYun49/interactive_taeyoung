@@ -1,0 +1,49 @@
+body{
+  background-color: #FF3F92;
+  font-family: 'Space Mono', monospace;
+  color:#ffffff;
+  font-size: 30px;
+}
+p{
+  margin: 35px;
+}
+
+@media screen and (min-width: 200px) {
+    body {
+        background-color: #FF3F92;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        background-color: #0166FF;
+    }
+}
+
+
+
+a{
+  text-decoration: none;
+  display: flex;
+  justify-content: left;
+}
+
+a:link {
+    color:yellow;
+    text-decoration: underline;
+}
+
+a:visited {
+    color:yellow;
+    text-decoration: underline;
+}
+
+a:hover {
+    color:yellow;
+    text-decoration: underline;
+    cursor: ne-resize;
+}
+
+a:active {
+    text-decoration: underline;
+}
